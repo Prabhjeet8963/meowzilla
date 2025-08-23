@@ -1,0 +1,38 @@
+body {
+  font: 14px courier;
+}
+
+/* Chart container */
+#apple-stock {
+  font: 10px sans-serif;
+}
+
+#apple-stock .axis path,
+#apple-stock .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+#apple-stock .x.axis path {
+  display: none;
+}
+
+/* Line style */
+#apple-stock .line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+/* Hover overlay for interactivity */
+#apple-stock .overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+/* Focus circle on hover */
+#apple-stock .focus circle {
+  fill: none;
+  stroke: steelblue;
+}
